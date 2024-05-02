@@ -1,10 +1,16 @@
 /* -------------------------------------------------------------------------------- */
 /* ! Base */
 /* -------------------------------------------------------------------------------- */
+.spacer {
+  height: 50px; /* Altezza dello spazio desiderato */
+}
 
 html, body{height: 100vh;}
-body{color:#000;font-family: Lato}
-
+body {
+  color: #000;
+  font-family: Lato;
+  padding-bottom: 50px; /* Aggiunge spazio sotto al footer */
+}
 /* ! Transitions */
 
 .transition-fade {  transition: 0.4s;  opacity: 1; transform: translateY(0px); }
@@ -398,6 +404,7 @@ body{transition: all 1s cubic-bezier(.215, .61, .355, 1);}
 
 
 /* ! Dark Mode */
+.site-container{margin-bottom: 200px;} /* Aggiunto margine inferiore */
 
 .site-container.dark{background: #000; color:#fff}
 
@@ -442,12 +449,6 @@ body{transition: all 1s cubic-bezier(.215, .61, .355, 1);}
 .dark .icon-hamburger span:after{background: #fff;}
 
 .dark .panel--grey{background: #333;}
-
-
-
-
-
-
 
 
 
